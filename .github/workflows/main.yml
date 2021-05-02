@@ -45,7 +45,7 @@ jobs:
           file: ./src/DockerFile
           push: true
           tags:
-            brunobragam/api-bootcamp-produto:latest
             brunobragam/api-bootcamp-produto:${{github.run_number}}
+            brunobragam/api-bootcamp-produto:latest
       
 
