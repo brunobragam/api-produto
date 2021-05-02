@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: api
-        image: brunobragam/api-bootcamp-produto:v2
+        image: brunobragam/api-bootcamp-produto:v1
         ports:
         - containerPort: 8080
         env:
