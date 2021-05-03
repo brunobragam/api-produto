@@ -35,7 +35,7 @@ jobs:
         uses: docker/build-push-action@v2.4.0
         with:
           context: ./src
-          file: ./src/DockerFilew
+          file: ./src/dockerFile
           push: true
           tags: |
             brunobragam/api-bootcamp-produto:latest
